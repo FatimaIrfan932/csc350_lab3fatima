@@ -79,7 +79,7 @@ marks = np.array([[78, 85, 62, 90],
 #     Print the new table. Hint: np.clip
 # 3g. Print how many students failed (below 50) in each subject.
 print(" Shape:", marks.shape)
-print(" Usman marks:", marks[1])
+print(" Usman marks:", marks[2])
 print(" Subject 3 marks:", marks[:, 2])
 print(" Subject average:", marks.mean(axis=0))
 print(" Student average:", marks.mean(axis=1))
